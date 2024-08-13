@@ -173,7 +173,7 @@ body{
 .header{
     min-height: 100vh;
     position: relative;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Images/banner-3.1.jpg) center/cover no-repeat fixed ;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Images/banner-3.2.jpeg) center/cover no-repeat fixed ;
 }
 /* #mode{
     display: none;
@@ -209,7 +209,7 @@ body{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     text-shadow: 2px 5px 5px var(--clr-primary);
-    animation: flame 1s infinite;
+    animation: none;
 }
 @keyframes flame {
     from {
@@ -293,6 +293,24 @@ body{
         width: 50%;
         
     }
+    .banner h1{
+        font-family: var(--ff-brand);
+        color: var(--clr-white);
+        font-weight: 400;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+        text-shadow: 2px 5px 5px var(--clr-primary);
+        animation: flame 1s infinite;
+    }
+    @keyframes flame {
+        from {
+            text-shadow: 0 0 30px rgba(255, 69, 0, 0.6), 0 0 40px rgba(255, 69, 0, 0.6), 0 0 50px rgba(255, 68, 0, 0.6), 0 0 60px rgba(255, 68, 0, 0.6), 0 0 70px rgba(255, 68, 0, 0.6);
+          }
+          to {
+            text-shadow: 0 0 30px rgba(255, 68, 0, 0.6), 0 0 40px rgba(255, 68, 0, 0.6), 0 0 50px rgba(255, 68, 0, 0.6), 0 0 60px rgba(255, 68, 0, 0.6), 0 0 70px rgba(255, 68, 0, 0.6), 0 0 80px rgba(255, 68, 0, 0.6);
+          }
+        
+    }
     
 }
 @media screen and (min-width:1200px) {
@@ -303,6 +321,24 @@ body{
     }
     .navbar{
         max-width: 400px;
+    }
+    .banner h1{
+        font-family: var(--ff-brand);
+        color: var(--clr-white);
+        font-weight: 400;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+        text-shadow: 2px 5px 5px var(--clr-primary);
+        animation: flame 1s infinite;
+    }
+    @keyframes flame {
+        from {
+            text-shadow: 0 0 30px rgba(255, 69, 0, 0.6), 0 0 40px rgba(255, 69, 0, 0.6), 0 0 50px rgba(255, 68, 0, 0.6), 0 0 60px rgba(255, 68, 0, 0.6), 0 0 70px rgba(255, 68, 0, 0.6);
+          }
+          to {
+            text-shadow: 0 0 30px rgba(255, 68, 0, 0.6), 0 0 40px rgba(255, 68, 0, 0.6), 0 0 50px rgba(255, 68, 0, 0.6), 0 0 60px rgba(255, 68, 0, 0.6), 0 0 70px rgba(255, 68, 0, 0.6), 0 0 80px rgba(255, 68, 0, 0.6);
+          }
+        
     }
     
 }
