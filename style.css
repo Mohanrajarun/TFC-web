@@ -8,6 +8,23 @@
     box-sizing: border-box;
 
 }
+* {
+    -webkit-tap-highlight-color: transparent;  /* Remove the tap highlight in Safari and Chrome on iOS */
+}
+.no-focus {
+    outline: none;  /* Remove the default focus outline */
+}
+.no-active:active {
+    background-color: transparent;  /* Remove any active state styling */
+}
+.no-select {
+    user-select: none;          /* Disable text selection */
+    -webkit-user-select: none;  /* Safari and Chrome */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE/Edge */
+}
+
+
 
 :root{
     --ff-primary:"Roboto",sans-serif;
