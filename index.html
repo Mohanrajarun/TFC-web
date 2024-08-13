@@ -348,6 +348,16 @@
         
         }
     </script> -->
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+        document.onselectstart = function() {
+            return false;
+        };
+
+
+    </script>
 
 </body>
 </html>

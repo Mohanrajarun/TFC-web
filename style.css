@@ -33,6 +33,19 @@
 
 }
 /* ----------------------Global CSS-------------------------- */
+body, img {
+    user-select: none;          /* Standard syntax */
+    -webkit-user-select: none;  /* Chrome, Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* Internet Explorer/Edge */
+}
+img {
+    -webkit-user-drag: none;  /* Disable dragging images in Safari and Chrome */
+    -moz-user-drag: none;     /* Disable dragging images in Firefox */
+    -o-user-drag: none;
+    
+}
+
 a{
     text-decoration: none;
 }
