@@ -25,6 +25,12 @@
     --clr-secondary:#e9b949;
 
     --transition:all 0.3s linear;
+
+    --clr-white:#fff;
+    --clr-grey-5:#879cb0;
+
+
+
 }
 /* ----------------------Global CSS-------------------------- */
 a{
@@ -75,6 +81,12 @@ body{
 .btn:hover{
     background-color: var(--clr-primary-light);
 }
+/* .darkmode{
+    --clr-grey-2:#fff;
+    --clr-grey-3:#879cb0;
+
+
+} */
 /* ---------------------------------------------- */
 
 .nav-btn svg{
@@ -83,6 +95,7 @@ body{
     position: fixed;
     top: 5%;
     left: 5%;
+    z-index: 5;
 
 }
 #nav-check{
@@ -95,7 +108,7 @@ body{
 .navbar{
     position: fixed;
     background-color: rgba(0,0,0,0.9);
-    z-index: 1;
+    z-index: 6;
     top: 0;
     left: 0;
     width: 100%;
@@ -159,8 +172,20 @@ body{
 
 .header{
     min-height: 100vh;
+    position: relative;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Images/banner-3.1.jpg) center/cover no-repeat fixed ;
 }
+/* #mode{
+    display: none;
+} */
+.nav_check svg{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+
+}
+
 .banner{
     text-align: center;
     position: absolute;
@@ -456,15 +481,18 @@ body{
     text-align: center;
     padding: 1rem 0;
     
+    margin: 0 auto;
+
+    
    
 }
 .section-text p{
     padding-bottom: 1rem;
-    margin: 0 auto;
     color: var(--clr-grey-2);
-    max-width: 20rem;
+    /* max-width: 20rem; */
     margin: 2rem;
     font-size: 1rem;
+    
     
 }
 
