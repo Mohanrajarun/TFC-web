@@ -174,7 +174,7 @@ body{
 .header{
     min-height: 100vh;
     position: relative;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Images/banner-3.2.jpeg) center/cover no-repeat fixed ;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Images/banner-3.4.jpeg) center/cover no-repeat fixed ;
 }
 /* #mode{
     display: none;
